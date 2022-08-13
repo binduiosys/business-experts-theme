@@ -1,0 +1,378 @@
+span.heading-border{
+    text-underline-offset: 11px;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    display: inline-block;
+    max-width: 928px;
+}
+.top-heading{
+    padding-top: 50px;
+}
+
+.heading-content{
+    max-width: 732px;
+    margin: 0 auto;
+}
+.developments-flex{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.developments-flex .content-headings{
+    flex-basis: 33.3%;
+}
+.module-two{
+    padding: 112px 0px 112px 0px;
+}
+.content-change{
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+
+}
+ .image-flex{
+    flex-basis: 44%;
+    margin-right: 8%;
+}
+.image-flex img{
+    width: 100%;
+    display: block;
+}
+ .content-flex{
+    flex-basis: 39.8%;
+}
+.tab-content {
+    display: none;
+}
+.tab-content.active {
+    display: flex;
+}
+.apps li{
+    font-family: 'Overpass';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #233D63;
+
+}
+span.tabber{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    text-underline-offset: 9px;
+    text-decoration: underline;
+
+
+}
+.check li{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    color: #233D63;
+    font-size: 20px;
+    line-height: 30px; 
+    margin: 10px 0px 10px 0px;
+
+}
+.lists li{
+    margin-top: 10px;
+}
+.check{
+    margin: 30px 0px 30px 0px;
+
+}
+.apps-description{
+    max-width: 466px;
+}
+.apps-description p{
+    border-top: 2px solid #233D63;
+    padding-top: 30px;
+    font-size: 18px;
+    line-height: 28px;
+}
+.tabber-mainflex{
+    padding: 53px 0px 53px 0px;
+}
+.check .fa-solid{
+    font-size: 15px;
+    margin-right: 10px;
+}
+.tabs li.active:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    height: 5px;
+    background-color: #5DC9BE;
+    width: 100%;
+    
+}
+.tabs li{
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    cursor: pointer;
+}
+span.heading-border{
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    display: inline-block;
+    max-width: 928px;
+}
+.card-heading{
+    max-width: 542px;
+    margin: 0 auto;
+}
+.cardheading-content{
+   text-align: center;
+   padding: 20px 0px 0px 0px;
+}
+.module-three .cards-mainflex{
+    display: flex;
+    justify-content: center;
+    align-items:stretch;
+    flex-wrap: wrap;
+    padding-top: 86px;
+}
+.cards-mainflex .card-one{
+    flex-basis: 30%;
+    padding-top: 50px;
+}
+.cards-mainflex .card-one:not(:nth-child(3n+3)){
+    margin-right: 3.3%;
+}
+.cards-mainflex .card-one{
+    background-color:#ffffff;
+    border-radius: 4px;
+    box-shadow: 1px 1px 15px rgb(188, 187, 187);
+}
+
+.module-three .left-heading h5{
+    font-size: 14px;
+    line-height: 20px;
+    color: #233D63;
+    letter-spacing: 2.018px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+.module-three .price{
+    text-align: center;
+    padding: 50px 0px 30px 0px;
+    border-bottom: 7px solid #5DC9BE;
+}
+.price p{
+    font-size: 16px;
+    line-height: 26px;
+}
+.module-three .card-list{
+    font-family: 'Overpass';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #233D63;
+    text-align: center;
+    margin-top: 34px;
+}
+.card-button-one li a{
+    text-decoration: none;
+    background-color: #5DC9BE;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #ffffff;
+    padding: 15px 30px 15px 30px;
+    display: inline-block;
+}
+.card-button-two li a{
+    text-decoration: none;
+    background-color: #5DC9BE;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #ffffff;
+    padding: 15px 30px 15px 30px;
+    display: inline-block;
+}
+.card-button-three li a{
+    text-decoration: none;
+    background-color: #5DC9BE;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #ffffff;
+    padding: 15px 30px 15px 30px;
+    display: inline-block;
+}
+
+
+.card-button-one li{
+    text-align: center;
+    padding-top: 159px;
+}
+
+.card-button-two li{
+    text-align: center;
+    padding-top: 125px;
+}
+.card-button-three li{
+    text-align: center;
+    padding-top: 63px;
+}
+.last-content{
+    max-width: 227px;
+    margin: 0 auto;
+    padding: 30px 0px 50px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+@media (max-width:768px) and (max-width:1024px){
+
+}
+
+
+@media (max-width:767px){
+    h1{
+        font-family: 'Overpass', sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+        color: #233D63;
+    }
+    .module-one span.heading-border{
+        font-size: 40px;
+        line-height: 50px;
+    
+    }
+    .heading-content{
+        text-align: center;
+        padding-top: 10px;
+    }
+    .developments-flex .content-headings{
+        flex-basis: 100%;
+    }
+    .image-flex{
+        flex-basis: 100%;
+        margin-right: 0%;
+    }
+    .image-flex img{
+        width: 100%;
+        display: block;
+    }
+     .content-flex{
+        flex-basis: 100%;
+    }
+    .content-headings .apps{
+        margin-top: 15px;
+    }
+    h2{
+        margin-top: 50px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .check li{
+        font-size: 18px;
+        line-height: 30px; 
+    
+    }
+    .apps li{
+        text-align: center;
+    }
+    .developments-flex{
+        text-align: center;
+    }
+    span.tabber{
+        font-size: 30px;
+        line-height: 40px;
+    
+    }
+    .cards-mainflex .card-one{
+        flex-basis: 100%;
+        padding-top: 50px;
+        margin-top: 40px;
+    }
+    .cards-mainflex .card-one:not(:nth-child(3n+3)){
+        margin-right: 0%;
+    }
+    h3 {
+        font-family: 'Overpass', sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 46px;
+        text-align: center;
+        color: #233D63;
+    }
+    .module-three span.heading-border{
+        text-decoration: underline;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+        display: inline-block;
+        max-width: 928px;
+    }
+    
+
+    
+    
+    
+
+}
+
+@media (max-width:480px)
+{
+    
+    h1{
+        font-family: 'Overpass', sans-serif;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 50px;
+        text-align: center;
+        color: #233D63;
+    }
+    .module-two {
+        padding: 50px 0px 50px 0px;
+    }
+    .developments-flex .content-headings{
+        flex-basis: 100%;
+    }
+    .image-flex{
+        flex-basis: 100%;
+        margin-right: 0%;
+    }
+    .image-flex img{
+        width: 100%;
+        display: block;
+    }
+     .content-flex{
+        flex-basis: 100%;
+    }
+    .developments-flex{
+        text-align: center;
+    }
+
+}
