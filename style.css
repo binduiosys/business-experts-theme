@@ -141,6 +141,7 @@ span.heading-border{
 .cards-mainflex .card-one{
     flex-basis: 30%;
     padding-top: 50px;
+    position: relative;
 }
 .cards-mainflex .card-one:not(:nth-child(3n+3)){
     margin-right: 3.3%;
@@ -150,7 +151,6 @@ span.heading-border{
     border-radius: 4px;
     box-shadow: 1px 1px 15px rgb(188, 187, 187);
 }
-
 .module-three .left-heading h5{
     font-size: 14px;
     line-height: 20px;
@@ -178,7 +178,7 @@ span.heading-border{
     text-align: center;
     margin-top: 34px;
 }
-.card-button-one li a{
+.card-button li a{
     text-decoration: none;
     background-color: #5DC9BE;
     border-radius: 4px;
@@ -190,31 +190,6 @@ span.heading-border{
     padding: 15px 30px 15px 30px;
     display: inline-block;
 }
-.card-button-two li a{
-    text-decoration: none;
-    background-color: #5DC9BE;
-    border-radius: 4px;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-    letter-spacing: 1.6px;
-    color: #ffffff;
-    padding: 15px 30px 15px 30px;
-    display: inline-block;
-}
-.card-button-three li a{
-    text-decoration: none;
-    background-color: #5DC9BE;
-    border-radius: 4px;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-    letter-spacing: 1.6px;
-    color: #ffffff;
-    padding: 15px 30px 15px 30px;
-    display: inline-block;
-}
-
 
 .card-button-one li{
     text-align: center;
