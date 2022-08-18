@@ -20,6 +20,7 @@ span.heading-border{
     justify-content: center;
     align-items: stretch;
     flex-wrap: wrap;
+    text-align: center;
 }
 .developments-flex .content-headings{
     flex-basis: 33.3%;
@@ -139,7 +140,7 @@ span.heading-border{
     padding-top: 86px;
 }
 .cards-mainflex .card-one{
-    flex-basis: 30%;
+    flex-basis: 31.1%;
     padding-top: 50px;
     position: relative;
 }
@@ -211,6 +212,17 @@ span.heading-border{
 }
 .card-button {
     text-align: center;
+}
+.button-align {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.lists {
+    padding-bottom: 200px;
+}
+.lists li {
+    padding: 0px 10px;
 }
 
 
