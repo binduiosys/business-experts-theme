@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 span.heading-border{
     text-underline-offset: 11px;
     text-decoration: underline;
@@ -16,26 +23,40 @@ span.heading-border{
     margin: 0 auto;
 }
 .developments-flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: stretch;
-    flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     text-align: center;
 }
 .developments-flex .content-headings{
-    flex-basis: 33.3%;
+    -ms-flex-preferred-size: 33.3%;
+        flex-basis: 33.3%;
 }
 .module-two{
     padding: 112px 0px 112px 0px;
 }
 .content-change{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: stretch;
-    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 
 }
  .image-flex{
-    flex-basis: 44%;
+    -ms-flex-preferred-size: 44%;
+        flex-basis: 44%;
     margin-right: 8%;
 }
 .image-flex img{
@@ -43,12 +64,15 @@ span.heading-border{
     display: block;
 }
  .content-flex{
-    flex-basis: 39.8%;
+    -ms-flex-preferred-size: 39.8%;
+        flex-basis: 39.8%;
 }
 .tab-content {
     display: none;
 }
 .tab-content.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .apps li{
@@ -84,9 +108,6 @@ span.tabber{
     margin: 30px 0px 30px 0px;
 
 }
-.apps-description{
-    max-width: 466px;
-}
 .apps-description p{
     border-top: 2px solid #233D63;
     padding-top: 30px;
@@ -108,6 +129,7 @@ span.tabber{
     height: 5px;
     background-color: #5DC9BE;
     width: 100%;
+    display: inline-block;
     
 }
 .tabs li{
@@ -133,14 +155,22 @@ span.heading-border{
    padding: 20px 0px 0px 0px;
 }
 .module-three .cards-mainflex{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items:stretch;
-    flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align:stretch;
+        -ms-flex-align:stretch;
+            align-items:stretch;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     padding-top: 86px;
 }
 .cards-mainflex .card-one{
-    flex-basis: 31.1%;
+    -ms-flex-preferred-size: 31.1%;
+        flex-basis: 31.1%;
     padding-top: 50px;
     position: relative;
 }
@@ -148,9 +178,13 @@ span.heading-border{
     margin-right: 3.3%;
 }
 .cards-mainflex .card-one{
-    background-color:#ffffff;
     border-radius: 4px;
-    box-shadow: 1px 1px 15px rgb(188, 187, 187);
+    border: 1px solid  rgb(230, 227, 227);
+}
+.cards-mainflex .card-one:hover{
+    -webkit-box-shadow: 1px 1px 15px rgb(188, 187, 187);
+            box-shadow: 1px 1px 15px rgb(188, 187, 187);
+
 }
 .module-three .left-heading h5{
     font-size: 14px;
@@ -224,6 +258,9 @@ span.heading-border{
 .lists li {
     padding: 0px 10px;
 }
+.top-heading h1 {
+    margin-bottom: 27px;
+}
 
 
 
@@ -264,10 +301,12 @@ span.heading-border{
         padding-top: 10px;
     }
     .developments-flex .content-headings{
-        flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+            flex-basis: 100%;
     }
     .image-flex{
-        flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+            flex-basis: 100%;
         margin-right: 0%;
     }
     .image-flex img{
@@ -275,7 +314,8 @@ span.heading-border{
         display: block;
     }
      .content-flex{
-        flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+            flex-basis: 100%;
     }
     .content-headings .apps{
         margin-top: 15px;
@@ -302,7 +342,8 @@ span.heading-border{
     
     }
     .cards-mainflex .card-one{
-        flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+            flex-basis: 100%;
         padding-top: 50px;
         margin-top: 40px;
     }
@@ -326,6 +367,7 @@ span.heading-border{
         max-width: 928px;
     }
     
+    
 
     
     
@@ -348,10 +390,12 @@ span.heading-border{
         padding: 50px 0px 50px 0px;
     }
     .developments-flex .content-headings{
-        flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+            flex-basis: 100%;
     }
     .image-flex{
-        flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+            flex-basis: 100%;
         margin-right: 0%;
     }
     .image-flex img{
@@ -359,7 +403,8 @@ span.heading-border{
         display: block;
     }
      .content-flex{
-        flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+            flex-basis: 100%;
     }
     .developments-flex{
         text-align: center;
