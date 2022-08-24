@@ -1,9 +1,4 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Open+Sans:wght@400;600&family=Overpass:wght@400;600;800&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,500;1,700;1,800;1,900&display=swap');
 
 span.heading-border{
     text-underline-offset: 11px;
@@ -217,8 +212,11 @@ span.heading-border{
     text-decoration: none;
     background-color: #5DC9BE;
     border-radius: 4px;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 600;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.25;
     text-align: center;
     letter-spacing: 1.6px;
     color: #ffffff;
